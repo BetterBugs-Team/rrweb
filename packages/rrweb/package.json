@@ -1,6 +1,9 @@
 {
-  "name": "rrweb",
+  "name": "@betterbugs/rrweb",
   "version": "2.0.0-alpha.19",
+  "publishConfig": {
+    "access": "public"
+  },
   "description": "record and replay the web",
   "scripts": {
     "prepare": "npm run prepack",
@@ -26,10 +29,11 @@
   "type": "module",
   "repository": {
     "type": "git",
-    "url": "git+ssh://git@github.com/rrweb-io/rrweb.git"
+    "url": "git+ssh://git@github.com/BetterBugs-Team/rrweb.git"
   },
   "keywords": [
-    "rrweb"
+    "rrweb",
+    "betterbugs"
   ],
   "main": "./dist/rrweb.umd.cjs",
   "module": "./dist/rrweb.js",
@@ -53,12 +57,12 @@
     "package.json"
   ],
   "sideEffects": false,
-  "author": "yanzhen@smartx.com",
+  "author": "BetterBugs-Team",
   "license": "MIT",
   "bugs": {
-    "url": "https://github.com/rrweb-io/rrweb/issues"
+    "url": "https://github.com/BetterBugs-Team/rrweb/issues"
   },
-  "homepage": "https://github.com/rrweb-io/rrweb#readme",
+  "homepage": "https://github.com/BetterBugs-Team/rrweb#readme",
   "devDependencies": {
     "@types/dom-mediacapture-transform": "0.1.4",
     "@types/inquirer": "^8.2.1",
@@ -80,13 +84,13 @@
     "vite-plugin-dts": "^3.9.1"
   },
   "dependencies": {
-    "@rrweb/types": "^2.0.0-alpha.19",
-    "@rrweb/utils": "^2.0.0-alpha.19",
+    "@betterbugs/types": "^2.0.0-alpha.19",
+    "@betterbugs/utils": "^2.0.0-alpha.19",
     "@types/css-font-loading-module": "0.0.7",
     "@xstate/fsm": "^1.4.0",
     "base64-arraybuffer": "^1.0.1",
     "mitt": "^3.0.0",
-    "rrdom": "^2.0.0-alpha.19",
-    "rrweb-snapshot": "^2.0.0-alpha.19"
+    "@betterbugs/rrdom": "^2.0.0-alpha.19",
+    "@betterbugs/rrweb-snapshot": "^2.0.0-alpha.19"
   }
 }

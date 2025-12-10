@@ -1,12 +1,13 @@
 {
-  "name": "@rrweb/record",
+  "name": "@betterbugs/record",
   "version": "2.0.0-alpha.19",
   "publishConfig": {
     "access": "public"
   },
   "keywords": [
     "rrweb",
-    "@rrweb/record"
+    "betterbugs",
+    "@betterbugs/record"
   ],
   "scripts": {
     "dev": "vite build --watch",
@@ -17,13 +18,13 @@
     "prepublish": "tsc -noEmit && vite build",
     "lint": "yarn eslint src/**/*.ts"
   },
-  "homepage": "https://github.com/rrweb-io/rrweb/tree/main/packages/@rrweb/record#readme",
+  "homepage": "https://github.com/BetterBugs-Team/rrweb/tree/main/packages/record#readme",
   "bugs": {
-    "url": "https://github.com/rrweb-io/rrweb/issues"
+    "url": "https://github.com/BetterBugs-Team/rrweb/issues"
   },
   "repository": {
     "type": "git",
-    "url": "git+https://github.com/rrweb-io/rrweb.git"
+    "url": "git+https://github.com/BetterBugs-Team/rrweb.git"
   },
   "license": "MIT",
   "type": "module",
@@ -55,9 +56,9 @@
     "typescript": "^5.4.5"
   },
   "dependencies": {
-    "@rrweb/types": "^2.0.0-alpha.19",
-    "rrweb": "^2.0.0-alpha.19",
-    "@rrweb/utils": "^2.0.0-alpha.19"
+    "@betterbugs/types": "^2.0.0-alpha.19",
+    "@betterbugs/rrweb": "^2.0.0-alpha.19",
+    "@betterbugs/utils": "^2.0.0-alpha.19"
   },
   "browserslist": [
     "supports es6-class"

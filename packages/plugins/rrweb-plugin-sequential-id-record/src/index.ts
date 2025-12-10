@@ -1,4 +1,4 @@
-import type { RecordPlugin } from '@rrweb/types';
+import type { RecordPlugin } from '@betterbugs/types';
 
 export type SequentialIdOptions = {
   key: string;

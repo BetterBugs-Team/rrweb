@@ -1,6 +1,6 @@
-import { record } from 'rrweb';
-import type { recordOptions } from 'rrweb';
-import type { eventWithTime } from '@rrweb/types';
+import { record } from '@betterbugs/rrweb';
+import type { recordOptions } from '@betterbugs/rrweb';
+import type { eventWithTime } from '@betterbugs/types';
 import { MessageName, type RecordStartedMessage } from '~/types';
 import { isInCrossOriginIFrame } from '~/utils';
 

@@ -1,5 +1,5 @@
-import { type Mirror as NodeMirror } from 'rrweb-snapshot';
-import { NodeType as RRNodeType } from '@rrweb/types';
+import { type Mirror as NodeMirror } from '@betterbugs/rrweb-snapshot';
+import { NodeType as RRNodeType } from '@betterbugs/types';
 import type {
   canvasMutationData,
   canvasEventWithTime,
@@ -8,7 +8,7 @@ import type {
   scrollData,
   styleDeclarationData,
   styleSheetRuleData,
-} from '@rrweb/types';
+} from '@betterbugs/types';
 import type {
   IRRCDATASection,
   IRRComment,

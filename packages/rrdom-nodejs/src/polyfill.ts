@@ -1,4 +1,4 @@
-import { BaseRRNode } from 'rrdom';
+import { BaseRRNode } from '@betterbugs/rrdom';
 import { RRDocument } from './document-nodejs';
 
 /**

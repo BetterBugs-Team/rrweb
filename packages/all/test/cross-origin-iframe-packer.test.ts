@@ -11,14 +11,14 @@ import type {
   eventWithTime,
   listenerHandler,
   mutationData,
-} from '@rrweb/types';
-import { unpack } from '@rrweb/packer';
+} from '@betterbugs/types';
+import { unpack } from '@betterbugs/packer';
 import * as fs from 'fs';
 import * as path from 'path';
 import type * as puppeteer from 'puppeteer';
-import type { recordOptions } from 'rrweb';
-import type {} from '@rrweb/types';
-import { EventType } from '@rrweb/types';
+import type { recordOptions } from '@betterbugs/rrweb';
+import type {} from '@betterbugs/types';
+import { EventType } from '@betterbugs/types';
 import {
   assertSnapshot,
   getServerURL,

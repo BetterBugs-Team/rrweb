@@ -7,8 +7,8 @@ import type {
   listenerHandler,
   eventWithTime,
   mutationData,
-} from '@rrweb/types';
-import { EventType, IncrementalSource } from '@rrweb/types';
+} from '@betterbugs/types';
+import { EventType, IncrementalSource } from '@betterbugs/types';
 import {
   assertSnapshot,
   getServerURL,

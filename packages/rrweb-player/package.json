@@ -1,8 +1,11 @@
 {
-  "name": "rrweb-player",
+  "name": "@betterbugs/rrweb-player",
   "version": "2.0.0-alpha.19",
+  "publishConfig": {
+    "access": "public"
+  },
   "devDependencies": {
-    "@rrweb/types": "^2.0.0-alpha.19",
+    "@betterbugs/types": "^2.0.0-alpha.19",
     "@sveltejs/adapter-auto": "^3.0.0",
     "@sveltejs/kit": "^2.0.0",
     "@sveltejs/package": "^2.0.0",
@@ -20,8 +23,8 @@
   },
   "dependencies": {
     "@tsconfig/svelte": "^1.0.0",
-    "@rrweb/replay": "^2.0.0-alpha.19",
-    "@rrweb/packer": "^2.0.0-alpha.19"
+    "@betterbugs/replay": "^2.0.0-alpha.19",
+    "@betterbugs/packer": "^2.0.0-alpha.19"
   },
   "scripts": {
     "dev": "vite build --watch",
@@ -57,15 +60,16 @@
   "type": "module",
   "repository": {
     "type": "git",
-    "url": "git+https://github.com/rrweb-io/rrweb.git"
+    "url": "git+https://github.com/BetterBugs-Team/rrweb.git"
   },
   "keywords": [
-    "rrweb"
+    "rrweb",
+    "betterbugs"
   ],
-  "author": "yanzhen@smartx.com",
+  "author": "BetterBugs-Team",
   "license": "MIT",
   "bugs": {
-    "url": "https://github.com/rrweb-io/rrweb/issues"
+    "url": "https://github.com/BetterBugs-Team/rrweb/issues"
   },
-  "homepage": "https://github.com/rrweb-io/rrweb#readme"
+  "homepage": "https://github.com/BetterBugs-Team/rrweb#readme"
 }

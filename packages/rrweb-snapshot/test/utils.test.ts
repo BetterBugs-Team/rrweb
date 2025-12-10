@@ -9,8 +9,8 @@ import {
   isNodeMetaEqual,
   stringifyStylesheet,
 } from '../src/utils';
-import { NodeType } from '@rrweb/types';
-import type { serializedNode, serializedNodeWithId } from '@rrweb/types';
+import { NodeType } from '@betterbugs/types';
+import type { serializedNode, serializedNodeWithId } from '@betterbugs/types';
 
 describe('utils', () => {
   describe('isNodeMetaEqual()', () => {

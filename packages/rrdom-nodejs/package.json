@@ -1,6 +1,9 @@
 {
-  "name": "rrdom-nodejs",
+  "name": "@betterbugs/rrdom-nodejs",
   "version": "2.0.0-alpha.19",
+  "publishConfig": {
+    "access": "public"
+  },
   "scripts": {
     "dev": "vite build --watch",
     "build": "yarn turbo run prepublish",
@@ -12,6 +15,7 @@
   },
   "keywords": [
     "rrweb",
+    "betterbugs",
     "rrdom-nodejs"
   ],
   "license": "MIT",
@@ -36,6 +40,14 @@
     "dist",
     "package.json"
   ],
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/BetterBugs-Team/rrweb.git"
+  },
+  "homepage": "https://github.com/BetterBugs-Team/rrweb/tree/main/packages/rrdom-nodejs#readme",
+  "bugs": {
+    "url": "https://github.com/BetterBugs-Team/rrweb/issues"
+  },
   "devDependencies": {
     "@types/cssom": "^0.4.1",
     "@types/cssstyle": "^2.2.1",
@@ -55,7 +67,7 @@
     "cssom": "^0.5.0",
     "cssstyle": "^2.3.0",
     "nwsapi": "2.2.0",
-    "rrdom": "^2.0.0-alpha.19",
-    "@rrweb/types": "^2.0.0-alpha.19"
+    "@betterbugs/rrdom": "^2.0.0-alpha.19",
+    "@betterbugs/types": "^2.0.0-alpha.19"
   }
 }

@@ -1,12 +1,13 @@
 {
-  "name": "@rrweb/utils",
+  "name": "@betterbugs/utils",
   "version": "2.0.0-alpha.19",
   "publishConfig": {
     "access": "public"
   },
   "keywords": [
     "rrweb",
-    "@rrweb/utils"
+    "betterbugs",
+    "@betterbugs/utils"
   ],
   "scripts": {
     "dev": "vite build --watch",
@@ -15,13 +16,13 @@
     "prepublish": "npm run build",
     "lint": "yarn eslint src/**/*.ts"
   },
-  "homepage": "https://github.com/rrweb-io/rrweb/tree/main/packages/@rrweb/utils#readme",
+  "homepage": "https://github.com/BetterBugs-Team/rrweb/tree/main/packages/utils#readme",
   "bugs": {
-    "url": "https://github.com/rrweb-io/rrweb/issues"
+    "url": "https://github.com/BetterBugs-Team/rrweb/issues"
   },
   "repository": {
     "type": "git",
-    "url": "git+https://github.com/rrweb-io/rrweb.git"
+    "url": "git+https://github.com/BetterBugs-Team/rrweb.git"
   },
   "license": "MIT",
   "type": "module",

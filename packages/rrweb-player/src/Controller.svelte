@@ -1,11 +1,11 @@
 <script lang="ts">
-  import { EventType } from '@rrweb/types';
-  import type { playerMetaData } from '@rrweb/types';
+  import { EventType } from '@betterbugs/types';
+  import type { playerMetaData } from '@betterbugs/types';
   import type {
     Replayer,
     PlayerMachineState,
     SpeedMachineState,
-  } from '@rrweb/replay';
+  } from '@betterbugs/replay';
   import {
     onMount,
     onDestroy,

@@ -1,9 +1,9 @@
-import type { Emitter } from '@rrweb/types';
-import { MediaInteractions, ReplayerEvents } from '@rrweb/types';
-import type { RRMediaElement } from 'rrdom';
+import type { Emitter } from '@betterbugs/types';
+import { MediaInteractions, ReplayerEvents } from '@betterbugs/types';
+import type { RRMediaElement } from '@betterbugs/rrdom';
 import type { createPlayerService, createSpeedService } from '../machine';
-import type { Mirror } from 'rrweb-snapshot';
-import type { mediaInteractionData, mediaAttributes } from '@rrweb/types';
+import type { Mirror } from '@betterbugs/rrweb-snapshot';
+import type { mediaInteractionData, mediaAttributes } from '@betterbugs/types';
 
 type MediaState = {
   isPlaying: boolean;

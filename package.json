@@ -1,20 +1,21 @@
 {
-  "name": "@rrweb/_monorepo",
+  "name": "@betterbugs/_monorepo",
   "description": "record and replay the web",
   "repository": {
     "type": "git",
-    "url": "git+ssh://git@github.com/rrweb-io/rrweb.git"
+    "url": "git+ssh://git@github.com/BetterBugs-Team/rrweb.git"
   },
   "keywords": [
-    "rrweb"
+    "rrweb",
+    "betterbugs"
   ],
-  "author": "yanzhen@smartx.com",
+  "author": "BetterBugs-Team",
   "license": "MIT",
   "bugs": {
-    "url": "https://github.com/rrweb-io/rrweb/issues"
+    "url": "https://github.com/BetterBugs-Team/rrweb/issues"
   },
   "private": true,
-  "homepage": "https://github.com/rrweb-io/rrweb#readme",
+  "homepage": "https://github.com/BetterBugs-Team/rrweb#readme",
   "workspaces": [
     "packages/*",
     "packages/plugins/*"

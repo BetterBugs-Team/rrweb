@@ -188,7 +188,7 @@ export class Replayer {
       speed: 1,
       maxSpeed: 360,
       root: document.body,
-      loadTimeout: 50,
+      loadTimeout: 5000,
       skipInactive: false,
       inactivePeriodThreshold: 10 * 1000,
       showWarning: true,

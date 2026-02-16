@@ -11,7 +11,11 @@ import type {
   IMirror,
 } from '@betterbugs/types';
 import type { Mirror, SlimDOMOptions } from '@betterbugs/rrweb-snapshot';
-import { isShadowRoot, IGNORED_NODE, classMatchesRegex } from '@betterbugs/rrweb-snapshot';
+import {
+  isShadowRoot,
+  IGNORED_NODE,
+  classMatchesRegex,
+} from '@betterbugs/rrweb-snapshot';
 import { RRNode, RRIFrameElement, BaseRRNode } from '@betterbugs/rrdom';
 import dom from '@betterbugs/utils';
 

@@ -3,7 +3,10 @@
  */
 import { EventType, IncrementalSource, Replayer, eventWithTime } from '../src';
 import { vi, type MockInstance } from 'vitest';
-import type { styleDeclarationData, styleSheetRuleData } from '@betterbugs/types';
+import type {
+  styleDeclarationData,
+  styleSheetRuleData,
+} from '@betterbugs/types';
 import { createMirror, Mirror as NodeMirror } from '@betterbugs/rrweb-snapshot';
 import type { ReplayerHandler } from '@betterbugs/rrdom';
 

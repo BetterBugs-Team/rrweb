@@ -15,13 +15,13 @@ You are recommended to install rrweb via jsdelivr's CDN service:
   rel="stylesheet"
   href="https://cdn.jsdelivr.net/npm/rrweb@latest/dist/style.css"
 />
-<script src="https://cdn.jsdelivr.net/npm/rrweb@latest/dist/rrweb.umd.min.cjs"></script>
+<script src="https://cdn.jsdelivr.net/npm/rrweb@latest/umd/rrweb.min.js"></script>
 ```
 
 Also, you can link to a specific version number that you can update manually:
 
 ```html
-<script src="https://cdn.jsdelivr.net/npm/rrweb@2.0.0-alpha.14/dist/rrweb.umd.min.cjs"></script>
+<script src="https://cdn.jsdelivr.net/npm/rrweb@2.0.0-alpha.21/umd/rrweb.min.js"></script>
 ```
 
 #### Only include the recorder code
@@ -30,8 +30,22 @@ rrweb's code includes both the record and the replay parts. Most of the time you
 This also can be done by using the `@rrweb/record` package and the CDN service:
 
 ```html
-<script src="https://cdn.jsdelivr.net/npm/@rrweb/record@latest/dist/record.umd.min.cjs"></script>
+<script src="https://cdn.jsdelivr.net/npm/@rrweb/record@latest/umd/record.min.js"></script>
 ```
+
+The recorder UMD build exposes a global named `rrwebRecord`.
+
+#### Only include the replayer code
+
+```html
+<link
+  rel="stylesheet"
+  href="https://cdn.jsdelivr.net/npm/@rrweb/replay@latest/dist/style.css"
+/>
+<script src="https://cdn.jsdelivr.net/npm/@rrweb/replay@latest/umd/replay.min.js"></script>
+```
+
+The replayer UMD build exposes a global named `rrwebReplay`.
 
 #### Other packages
 
@@ -326,7 +340,7 @@ rrweb-player can also be included with `<script>`：
   rel="stylesheet"
   href="https://cdn.jsdelivr.net/npm/rrweb-player@latest/dist/style.css"
 />
-<script src="https://cdn.jsdelivr.net/npm/rrweb-player@latest/dist/index.js"></script>
+<script src="https://cdn.jsdelivr.net/npm/rrweb-player@latest/umd/rrweb-player.js"></script>
 ```
 
 Or installed by using NPM：

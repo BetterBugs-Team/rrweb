@@ -1,6 +1,6 @@
 {
   "name": "@betterbugs/all",
-  "version": "2.0.0-alpha.19",
+  "version": "2.0.0-alpha.20",
   "publishConfig": {
     "access": "public"
   },
@@ -57,9 +57,9 @@
     "typescript": "^5.4.5"
   },
   "dependencies": {
-    "@betterbugs/types": "^2.0.0-alpha.19",
-    "@betterbugs/packer": "^2.0.0-alpha.19",
-    "@betterbugs/rrweb": "^2.0.0-alpha.19"
+    "@betterbugs/types": "^2.0.0-alpha.20",
+    "@betterbugs/packer": "^2.0.0-alpha.20",
+    "@betterbugs/rrweb": "^2.0.0-alpha.20"
   },
   "browserslist": [
     "supports es6-class"

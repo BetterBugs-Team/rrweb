@@ -1,6 +1,6 @@
 {
   "name": "@betterbugs/rrweb-snapshot",
-  "version": "2.0.0-alpha.19",
+  "version": "2.0.0-alpha.20",
   "publishConfig": {
     "access": "public"
   },
@@ -58,8 +58,8 @@
   },
   "homepage": "https://github.com/BetterBugs-Team/rrweb/tree/master/packages/rrweb-snapshot#readme",
   "devDependencies": {
-    "@betterbugs/types": "^2.0.0-alpha.19",
-    "@betterbugs/utils": "^2.0.0-alpha.19",
+    "@betterbugs/types": "^2.0.0-alpha.20",
+    "@betterbugs/utils": "^2.0.0-alpha.20",
     "@types/jsdom": "^20.0.0",
     "@types/node": "^18.15.11",
     "@types/puppeteer": "^5.4.4",

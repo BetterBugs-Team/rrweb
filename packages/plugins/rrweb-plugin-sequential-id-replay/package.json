@@ -1,6 +1,6 @@
 {
   "name": "@betterbugs/rrweb-plugin-sequential-id-replay",
-  "version": "2.0.0-alpha.19",
+  "version": "2.0.0-alpha.20",
   "publishConfig": {
     "access": "public"
   },
@@ -47,13 +47,13 @@
   },
   "homepage": "https://github.com/BetterBugs-Team/rrweb#readme",
   "devDependencies": {
-    "@betterbugs/rrweb-plugin-sequential-id-record": "^2.0.0-alpha.19",
-    "@betterbugs/rrweb": "^2.0.0-alpha.19",
+    "@betterbugs/rrweb-plugin-sequential-id-record": "^2.0.0-alpha.20",
+    "@betterbugs/rrweb": "^2.0.0-alpha.20",
     "typescript": "^5.4.5",
     "vite": "^5.3.1",
     "vite-plugin-dts": "^3.9.1"
   },
   "peerDependencies": {
-    "@betterbugs/rrweb": "^2.0.0-alpha.19"
+    "@betterbugs/rrweb": "^2.0.0-alpha.20"
   }
 }

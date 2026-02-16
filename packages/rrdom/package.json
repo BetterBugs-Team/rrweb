@@ -1,6 +1,6 @@
 {
   "name": "@betterbugs/rrdom",
-  "version": "2.0.0-alpha.19",
+  "version": "2.0.0-alpha.20",
   "publishConfig": {
     "access": "public"
   },
@@ -44,7 +44,7 @@
     "url": "https://github.com/BetterBugs-Team/rrweb/issues"
   },
   "devDependencies": {
-    "@betterbugs/types": "^2.0.0-alpha.19",
+    "@betterbugs/types": "^2.0.0-alpha.20",
     "@types/puppeteer": "^5.4.4",
     "@typescript-eslint/eslint-plugin": "^5.23.0",
     "@typescript-eslint/parser": "^5.23.0",
@@ -55,6 +55,6 @@
     "vite-plugin-dts": "^3.9.1"
   },
   "dependencies": {
-    "@betterbugs/rrweb-snapshot": "^2.0.0-alpha.19"
+    "@betterbugs/rrweb-snapshot": "^2.0.0-alpha.20"
   }
 }

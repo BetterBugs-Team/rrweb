@@ -1,6 +1,6 @@
 {
   "name": "@betterbugs/rrdom-nodejs",
-  "version": "2.0.0-alpha.19",
+  "version": "2.0.0-alpha.20",
   "publishConfig": {
     "access": "public"
   },
@@ -67,7 +67,7 @@
     "cssom": "^0.5.0",
     "cssstyle": "^2.3.0",
     "nwsapi": "2.2.0",
-    "@betterbugs/rrdom": "^2.0.0-alpha.19",
-    "@betterbugs/types": "^2.0.0-alpha.19"
+    "@betterbugs/rrdom": "^2.0.0-alpha.20",
+    "@betterbugs/types": "^2.0.0-alpha.20"
   }
 }

@@ -1,11 +1,11 @@
 {
   "name": "@betterbugs/rrweb-player",
-  "version": "2.0.0-alpha.19",
+  "version": "2.0.0-alpha.20",
   "publishConfig": {
     "access": "public"
   },
   "devDependencies": {
-    "@betterbugs/types": "^2.0.0-alpha.19",
+    "@betterbugs/types": "^2.0.0-alpha.20",
     "@sveltejs/adapter-auto": "^3.0.0",
     "@sveltejs/kit": "^2.0.0",
     "@sveltejs/package": "^2.0.0",
@@ -23,8 +23,8 @@
   },
   "dependencies": {
     "@tsconfig/svelte": "^1.0.0",
-    "@betterbugs/replay": "^2.0.0-alpha.19",
-    "@betterbugs/packer": "^2.0.0-alpha.19"
+    "@betterbugs/replay": "^2.0.0-alpha.20",
+    "@betterbugs/packer": "^2.0.0-alpha.20"
   },
   "scripts": {
     "dev": "vite build --watch",

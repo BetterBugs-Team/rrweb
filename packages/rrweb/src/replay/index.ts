@@ -188,7 +188,7 @@ export class Replayer {
       speed: 1,
       maxSpeed: 360,
       root: document.body,
-      loadTimeout: 0,
+      loadTimeout: 50,
       skipInactive: false,
       inactivePeriodThreshold: 10 * 1000,
       showWarning: true,
@@ -1010,7 +1010,7 @@ export class Replayer {
         .forEach((css: HTMLLinkElement) => {
           if (!css.sheet) {
             unloadSheets.add(css);
-            css.addEventListener('load', () => {
+            const onLoadOrError = () => {
               unloadSheets.delete(css);
               // all loaded and timer not released yet
               if (unloadSheets.size === 0 && timer !== -1) {
@@ -1023,7 +1023,9 @@ export class Replayer {
                 }
                 unsubscribe();
               }
-            });
+            };
+            css.addEventListener('load', onLoadOrError);
+            css.addEventListener('error', onLoadOrError);
           }
         });
 
